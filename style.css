@@ -1,0 +1,192 @@
+body{
+  width: 100%;
+  font-family: "Meiryo UI","Meiryo","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","ＭＳ Ｐゴシック","Osaka",sans-serif;
+  background-image: url("img/bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;;
+}
+header{
+  height: 70px;
+}
+
+.body_index{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  width: auto;
+  height: auto;
+}
+
+.chack{
+  margin-top: 20px;
+  margin-left: 40px;
+
+}
+
+.login{
+  margin-top: 20px;
+  text-align:
+  box-shadow : 1px 1px 2px rgba(0, 0, 0, 0.3);
+  filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=1, OffY=1, Color='#000000') ;
+}
+
+.body1{
+width: auto;
+height: auto;
+}
+header.body1{
+  height: 70px;
+}
+
+
+table.company {
+	text-align: center;
+    width: 550px;
+    margin: 0 auto;
+    border-collapse: separate;
+    border-spacing: 0px 15px;
+    font-size: 12px;
+    text-align: center;
+}
+
+table.company th,
+table.company td {
+    padding: 10px;
+    text-align: center;
+}
+
+table.company th {
+    background: #B3B3B3;
+    vertical-align: middle;
+    text-align: center;
+    width: 100px;
+    overflow: visible;
+    position: relative;
+    color: #fff;
+    font-weight: normal;
+    font-size: 15px;
+}
+
+table.company th:after {
+    display: none;
+    left: 100%;
+    top: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-color: rgba(136, 183, 213, 0);
+    border-left-color: #B3B3B3;
+    border-width: 20px;
+    margin-top: -20px;
+}
+/* firefox */
+@-moz-document url-prefix() {
+    table.company th::after {
+        float: right;
+        padding: 0;
+        left: 30px;
+        top: 10px;
+        content: " ";
+        height: 0;
+        width: 0;
+        position: relative;
+        pointer-events: none;
+        border: 10px solid transparent;
+        border-left: #295890 10px solid;
+        margin-top: -10px;
+    }
+}
+
+table.company td {
+    background: #f8f8f8;
+    width: 360px;
+    padding-left: 20px;
+}
+
+.next3-text{
+  text-align:center;
+    margin:0px auto;
+    margin-top: 30px;
+}
+
+.aaa{
+  width: 500px;
+  margin: 0 auto;
+  border-spacing: 0px 5px;
+}
+
+table.view th{
+width: 50px;
+padding: 6px;
+text-align: left;
+vertical-align: top;
+color: #333;
+background-color: #808080;
+border: 1px solid #808080;
+}
+table.view td{
+padding: 6px;
+background-color: transparent;
+border: 1px solid #808080;
+text-align: center;
+border-collapse: collapse;
+}
+
+.f_username{
+  width:200px;
+}
+.f_passwd{
+  width:200px;
+}
+
+.attention{
+  color:red;
+  font-size:14px;
+  line-height:1.6em
+}
+
+.aaa{
+  width: 500px;
+  margin: 0 auto;
+  border-spacing: 2px 10px;}
+
+
+table.company th {
+    background: #B3B3B3;
+    vertical-align: middle;
+    text-align: center;
+    width: 123px;
+    overflow: visible;
+    position: relative;
+    color: #fff;
+    font-weight: normal;
+    font-size: 15px;
+}
+
+.filesend_logo{
+  margin-bottom: 20px;
+}
+a {
+text-decoration: none;
+}
+
+.filesend_logo{
+  margin: 60px 0 90px 0;
+}
+a {
+text-decoration: none;
+}
+
+.pass_text{
+  margin:0 0 20px 0;
+}
+.teblesend_datename{
+ border-spacing: 0px 20px;}
