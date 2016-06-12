@@ -22,19 +22,21 @@
   <a href="index.php"><img src="img/logo_s.png" alt="logo"></a>
       <br>
       <p style="font-size:16px; color:#808080;">パスワード情報を入力してください。<br>
-  <FORM ACTION="upload_check.php" METHOD=post NAME=FORM1 ENCTYPE="multipart/form-data">
+  <font color="red" size="2">{$c_pass_error}{$n_pass_error}</font>
+  <FORM ACTION="" METHOD=post NAME=FORM1 ENCTYPE="multipart/form-data">
   <table class="aaa" align="center">
   <tr>
   <th style="color : #4D4D4D; text-align:right;">現在のパスワード&nbsp&nbsp</th>
-  <td><INPUT TYPE="text" NAME="" SIZE="30" /></td>
+  <td><INPUT TYPE="text" NAME="c_pass" SIZE="30" /></td>
   </tr>
   <tr>
   <th style="color : #4D4D4D; text-align:right;">新しいパスワード&nbsp&nbsp</th>
-  <td><INPUT TYPE="text" NAME="" SIZE="30" /></td>
+  <td><INPUT TYPE="text" NAME="n_pass" SIZE="30" />
+</td>
   </tr>
   <tr>
   <th style="color : #4D4D4D; text-align:right;">新しいパスワード(確認用)&nbsp&nbsp</th>
-  <td><INPUT TYPE="text" NAME="" SIZE="30" /></td>
+  <td><INPUT TYPE="text" NAME="n_pass_r" SIZE="30" /></td>
   </tr>
   </table>
   <table align="center"cellspacing="15"><tbody>
