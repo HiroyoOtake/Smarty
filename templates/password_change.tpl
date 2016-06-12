@@ -22,7 +22,7 @@
   <a href="index.php"><img src="img/logo_s.png" alt="logo"></a>
       <br>
       <p style="font-size:16px; color:#808080;">パスワード情報を入力してください。<br>
-  <font color="red" size="2">{$c_pass_error}{$n_pass_error}</font>
+  <font color="red" size="2">{$c_pass_error}{$n_pass_error}{$sql_error}{$count_error}</font>
   <FORM ACTION="" METHOD=post NAME=FORM1 ENCTYPE="multipart/form-data">
   <table class="aaa" align="center">
   <tr>
