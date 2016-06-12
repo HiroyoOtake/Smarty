@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.5-dev, created on 2016-06-11 03:43:29
+<?php /* Smarty version 2.6.5-dev, created on 2016-06-12 16:12:51
          compiled from password_change.tpl */ ?>
 <!DOCTYPE html>
 <html lang="ja">
@@ -25,19 +25,22 @@
   <a href="index.php"><img src="img/logo_s.png" alt="logo"></a>
       <br>
       <p style="font-size:16px; color:#808080;">パスワード情報を入力してください。<br>
-  <FORM ACTION="upload_check.php" METHOD=post NAME=FORM1 ENCTYPE="multipart/form-data">
+  <font color="red" size="2"><?php echo $this->_tpl_vars['errors']['c_pass_error'];  echo $this->_tpl_vars['errors']['n_pass_error'];  echo $this->_tpl_vars['errors']['count_error'];  echo $this->_tpl_vars['errors']['sql_error']; ?>
+</font>
+  <FORM ACTION="" METHOD=post NAME=FORM1 ENCTYPE="multipart/form-data">
   <table class="aaa" align="center">
   <tr>
   <th style="color : #4D4D4D; text-align:right;">現在のパスワード&nbsp&nbsp</th>
-  <td><INPUT TYPE="text" NAME="" SIZE="30" /></td>
+  <td><INPUT TYPE="text" NAME="c_pass" SIZE="30" /></td>
   </tr>
   <tr>
   <th style="color : #4D4D4D; text-align:right;">新しいパスワード&nbsp&nbsp</th>
-  <td><INPUT TYPE="text" NAME="" SIZE="30" /></td>
+  <td><INPUT TYPE="text" NAME="n_pass" SIZE="30" />
+</td>
   </tr>
   <tr>
   <th style="color : #4D4D4D; text-align:right;">新しいパスワード(確認用)&nbsp&nbsp</th>
-  <td><INPUT TYPE="text" NAME="" SIZE="30" /></td>
+  <td><INPUT TYPE="text" NAME="n_pass_r" SIZE="30" /></td>
   </tr>
   </table>
   <table align="center"cellspacing="15"><tbody>
